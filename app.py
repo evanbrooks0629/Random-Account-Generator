@@ -94,8 +94,8 @@ def write_csv_file(fields, name, email, password, number, client_email):
         csvwriter.writerow(fields)
         csvwriter.writerows(rows)
 
-    email_user = 'pydev789@gmail.com'
-    email_password = 'EvanSoccer$34$'
+    email_user = 'YOUR GMAIL'
+    email_password = 'YOUR GMAIL PASSWORD'
     email_send = client_email
 
     subject = 'Accounts'
